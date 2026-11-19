@@ -1,0 +1,112 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 1fr auto;
+  grid-template-areas:
+    "header"
+    "nam-int"
+    "des-btn"
+    "footer";
+}
+.header {
+  grid-area: header;
+  background: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+.nam-int {
+  grid-area: nam-int;
+  background: brown;
+  padding: 20px;
+}
+.prof-pic {
+  position: absolute;
+  left: 750px;
+  top: 70px;
+}
+.des-btn {
+  grid-area: des-btn;
+  background: yellow;
+  padding: 20px;
+}
+.footer {
+  grid-area: footer;
+  background: pink;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  font-size: 2em;
+}
+.teen {
+  height: 400px;
+  width: 400px;
+  background: transparent;
+}
+.app {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.goo {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.fig {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+.nike {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.spot {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.face {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.i1 {
+  display: flex;
+  flex-direction: row;
+}
+.i2 {
+  display: flex;
+  flex-direction: row;
+}
+.i3 {
+  display: flex;
+  flex-direction: row;
+}
+.i4 {
+  display: flex;
+  flex-direction: row;
+}
+.i5 {
+  display: flex;
+  flex-direction: row;
+}
+.i6 {
+  display: flex;
+  flex-direction: row;
+}
