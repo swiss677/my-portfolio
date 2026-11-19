@@ -37,7 +37,7 @@
 .footer {
   grid-area: footer;
   background: pink;
-  padding: 20px;
+  padding: 10px;
   gap: 20px;
   display: flex;
   flex-direction: column;
@@ -82,9 +82,13 @@ h2 {
   border-radius: 100%;
 }
 .icons {
+  position: relative;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 50px;
+}
+.icons:hover {
+  gap: 90px;
 }
 .i1 {
   display: flex;
