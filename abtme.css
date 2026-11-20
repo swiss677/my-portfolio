@@ -18,23 +18,34 @@ body {
 }
 .header {
   grid-area: header;
-  background: rgb(3, 3, 122);
+  background: none;
+  transition: background 0.5s ease-in-out;
   text-align: center;
   font-size: 1.6em;
   padding: 10px;
   border: solid 4px #f5f5dc;
   border-radius: 15px;
 }
+.header:hover {
+  background: #00f;
+  cursor: pointer;
+}
 .bio {
   grid-area: bio;
-  background: rgb(3, 3, 122);
+  background: none;
+  transition: background 0.5s ease-in-out;
   padding: 20px;
   border: solid 4px #f5f5dc;
   border-radius: 15px;
 }
+.bio:hover {
+  background: #00f;
+  cursor: pointer;
+}
 .edu {
   grid-area: edu;
-  background: rgb(3, 3, 122);
+  background: none;
+  transition: background 0.5s ease-in-out;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -42,26 +53,45 @@ body {
   border: solid 4px #f5f5dc;
   border-radius: 15px;
 }
+.edu:hover {
+  background: #00f;
+  cursor: pointer;
+}
 .int {
   grid-area: int;
-  background: rgb(3, 3, 122);
+  background: none;
+  transition: background 0.5s ease-in-out;
   padding: 20px;
   border: solid 4px #f5f5dc;
   border-radius: 15px;
+}
+.int:hover {
+  background: #00f;
+  cursor: pointer;
 }
 .goals {
   grid-area: goals;
-  background: rgb(3, 3, 122);
+  background: none;
+  transition: background 0.5s ease-in-out;
   padding: 20px;
   border: solid 4px #f5f5dc;
   border-radius: 15px;
 }
+.goals:hover {
+  background: #00f;
+  cursor: pointer;
+}
 .skills {
   grid-area: skills;
-  background: rgb(3, 3, 122);
+  background: none;
+  transition: background 0.5s ease-in-out;
   padding: 20px;
   border: solid 4px #f5f5dc;
   border-radius: 15px;
+}
+.skills:hover {
+  background: #00f;
+  cursor: pointer;
 }
 td,
 th {
