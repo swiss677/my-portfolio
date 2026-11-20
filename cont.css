@@ -1,0 +1,164 @@
+.text {
+  margin-top: 200px;
+}
+body {
+  background-image: url("images/background.avif");
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ig {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.ig-txt {
+  margin-top: -14px;
+}
+.ig-btn {
+  height: 30px;
+  width: 30px;
+  background: beige;
+  border-radius: 5px;
+  border: double 2px beige;
+  border-width: 1px;
+  text-align: center;
+}
+.ig-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.facebook {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.face-txt {
+  margin-top: -9px;
+}
+.face-btn {
+  height: 30px;
+  width: 30px;
+  background: beige;
+  border-radius: 5px;
+  border: double 2px beige;
+  border-width: 1px;
+  text-align: center;
+}
+.face-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.x {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.x-txt {
+  margin-top: -6px;
+}
+.x-btn {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  background: beige;
+  border: double 2px beige;
+  border-width: 1px;
+  text-align: center;
+}
+.x-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.whatsapp {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.wha-txt {
+  margin-top: -6px;
+}
+.wha-btn {
+  height: 30px;
+  width: 30px;
+  background: beige;
+  border-radius: 5px;
+  border: double 2px beige;
+  text-align: center;
+}
+.wha-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.form {
+  margin-left: 100px;
+  margin-top: 90px;
+  border: solid 4px #00f;
+  border-radius: 15px;
+  padding: 20px;
+  background: none;
+  transition: background 0.5s ease-in-out;
+}
+.form:hover {
+  background: #00f;
+  cursor: pointer;
+}
+#name {
+  height: 20px;
+  width: 300px;
+  padding: 5px;
+  border: solid 2px #00f;
+  border-radius: 5px;
+  background: antiquewhite;
+}
+#email {
+  height: 20px;
+  width: 300px;
+  padding: 5px;
+  border: solid 2px #00f;
+  border-radius: 5px;
+  background: antiquewhite;
+}
+#message {
+  height: 20px;
+  width: 305px;
+  padding-bottom: 60px;
+  border: solid 2px #00f;
+  border-radius: 5px;
+  background: antiquewhite;
+}
+#sub {
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: beige;
+  border: solid 2px #f00;
+  border-radius: 15px;
+  background: rgb(45, 44, 44);
+  transition: background 0.5s ease-in-out;
+}
+#sub:hover {
+  background: #f00;
+  cursor: pointer;
+}
+a {
+  color: beige;
+  transition:
+    font-size 0.3s ease,
+    color 0.3s ease;
+  text-decoration: none;
+}
+a:hover {
+  font-size: 17px;
+  color: #00f;
+}
