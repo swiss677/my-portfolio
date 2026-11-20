@@ -6,7 +6,7 @@ body {
   position: relative;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
+  color: beige;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr 1fr auto;
@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   padding: 20px;
 }
 .nam-int {
@@ -46,7 +46,10 @@ body {
   align-items: center;
 }
 h2 {
-  font-size: 2em;
+  font-size: 3em;
+}
+.sof {
+  font-size: 25px;
 }
 .teen {
   height: 400px;
@@ -149,4 +152,48 @@ button {
 button:hover {
   cursor: pointer;
   background: #00f;
+}
+.l1 {
+  color: beige;
+  text-decoration: none;
+  transition:
+    font-size 0.3s ease,
+    color 0.3s ease;
+}
+.l1:hover {
+  font-size: 17px;
+  color: #00f;
+}
+.l2 {
+  color: beige;
+  text-decoration: none;
+  transition:
+    font-size 0.3s ease,
+    color 0.3s ease;
+}
+.l2:hover {
+  font-size: 17px;
+  color: #00f;
+}
+.l3 {
+  color: beige;
+  text-decoration: none;
+  transition:
+    font-size 0.3s ease,
+    color 0.3s ease;
+}
+.l3:hover {
+  font-size: 17px;
+  color: #00f;
+}
+.l4 {
+  color: beige;
+  text-decoration: none;
+  transition:
+    font-size 0.3s ease,
+    color 0.3s ease;
+}
+.l4:hover {
+  font-size: 17px;
+  color: #00f;
 }
